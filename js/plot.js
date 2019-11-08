@@ -50,7 +50,7 @@ function makeScatterPlot(csvData) {
     plotData(mapFunctions);
 
     // draw title and axes labels
-    makeLabels(svgContainer, msm, "Countries by Life Expectancy and Fertility Rate",'Fertility Rates (Avg Children per Woman)','Life Expectancy (years)');
+    makeLabels(svgContainer, msm, "Countries by Life Expectancy and Fertility Rate",'Fertility','Life Expectancy');
 
 }
 
