@@ -146,7 +146,6 @@ function plotPopulation(country, toolChart) {
         .attr("d", d3.line()
                     .x(function(d) { return mapFunctions.xScale(d.year) })
                     .y(function(d) { return mapFunctions.yScale(d.population) }))
-    makeLabels2(toolChart, small_msm, "Population Over Time For " + country, "Year", "Population");
 }
 
 // make title and axes labels
